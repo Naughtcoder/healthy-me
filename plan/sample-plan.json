@@ -1,0 +1,710 @@
+{
+ "phase": "CE",
+ "phaseName": "Starter phase",
+ "source": "Invented sample plan for the demo",
+ "start": "2026-01-05",
+ "end": "2026-01-18",
+ "window": {
+  "open": "09:30",
+  "close": "21:30",
+  "carbCutoff": "18:00"
+ },
+ "waterTargetMl": 3000,
+ "targets": {
+  "proteinG": 60,
+  "vegG": 400,
+  "carbMeals": 2,
+  "kcalMax": null,
+  "note": "Sample targets. Adjust to your own plan."
+ },
+ "routine": [
+  {
+   "id": "weigh",
+   "time": "07:30",
+   "title": "Weigh in",
+   "detail": "Empty stomach, before any food or water."
+  },
+  {
+   "id": "pack",
+   "time": "08:00",
+   "title": "Pack the day",
+   "detail": "Meal boxes and a 1 litre bottle."
+  },
+  {
+   "id": "water1",
+   "time": "11:30",
+   "title": "Water check",
+   "detail": "1 litre by now.",
+   "waterMl": 1000
+  },
+  {
+   "id": "water2",
+   "time": "16:30",
+   "title": "Water check",
+   "detail": "2 litres by now.",
+   "waterMl": 2000
+  },
+  {
+   "id": "carbs",
+   "time": "17:45",
+   "title": "Last carbs",
+   "detail": "Carbs stop at 6 pm. Dinner is protein and vegetables."
+  },
+  {
+   "id": "water3",
+   "time": "20:30",
+   "title": "Water check",
+   "detail": "3 litres by 9 pm.",
+   "waterMl": 3000
+  },
+  {
+   "id": "close",
+   "time": "21:30",
+   "title": "Window closes",
+   "detail": "Water and plain herbal tea only until 9:30 am."
+  }
+ ],
+ "snacks": {
+  "morning": {
+   "time": "11:30",
+   "options": [
+    {
+     "name": "Cucumber sticks",
+     "grams": 150
+    },
+    {
+     "name": "Almonds",
+     "grams": 20
+    },
+    {
+     "name": "Lime water",
+     "ml": 300
+    }
+   ]
+  },
+  "evening": {
+   "time": "16:30",
+   "options": [
+    {
+     "name": "Roasted makhana",
+     "grams": 25
+    },
+    {
+     "name": "Buttermilk",
+     "ml": 250
+    }
+   ]
+  }
+ },
+ "days": [
+  {
+   "day": 1,
+   "date": "2026-01-05",
+   "breakfast": [
+    [
+     "Poha",
+     150
+    ],
+    [
+     "Egg whites, boiled",
+     100
+    ]
+   ],
+   "lunch": [
+    [
+     "Rice, cooked",
+     150
+    ],
+    [
+     "Beans sabzi",
+     120
+    ],
+    [
+     "Curd",
+     100
+    ]
+   ],
+   "dinner": [
+    [
+     "Grilled paneer",
+     150
+    ],
+    [
+     "Sauteed mixed vegetables",
+     200
+    ]
+   ]
+  },
+  {
+   "day": 2,
+   "date": "2026-01-06",
+   "breakfast": [
+    [
+     "Poha",
+     150
+    ],
+    [
+     "Egg whites, boiled",
+     100
+    ]
+   ],
+   "lunch": [
+    [
+     "Rice, cooked",
+     150
+    ],
+    [
+     "Beans sabzi",
+     120
+    ],
+    [
+     "Curd",
+     100
+    ]
+   ],
+   "dinner": [
+    [
+     "Grilled paneer",
+     150
+    ],
+    [
+     "Sauteed mixed vegetables",
+     200
+    ]
+   ]
+  },
+  {
+   "day": 3,
+   "date": "2026-01-07",
+   "breakfast": [
+    [
+     "Poha",
+     150
+    ],
+    [
+     "Egg whites, boiled",
+     100
+    ]
+   ],
+   "lunch": [
+    [
+     "Rice, cooked",
+     150
+    ],
+    [
+     "Beans sabzi",
+     120
+    ],
+    [
+     "Curd",
+     100
+    ]
+   ],
+   "dinner": [
+    [
+     "Grilled paneer",
+     150
+    ],
+    [
+     "Sauteed mixed vegetables",
+     200
+    ]
+   ]
+  },
+  {
+   "day": 4,
+   "date": "2026-01-08",
+   "breakfast": [
+    [
+     "Poha",
+     150
+    ],
+    [
+     "Egg whites, boiled",
+     100
+    ]
+   ],
+   "lunch": [
+    [
+     "Rice, cooked",
+     150
+    ],
+    [
+     "Beans sabzi",
+     120
+    ],
+    [
+     "Curd",
+     100
+    ]
+   ],
+   "dinner": [
+    [
+     "Grilled paneer",
+     150
+    ],
+    [
+     "Sauteed mixed vegetables",
+     200
+    ]
+   ]
+  },
+  {
+   "day": 5,
+   "date": "2026-01-09",
+   "breakfast": [
+    [
+     "Poha",
+     150
+    ],
+    [
+     "Egg whites, boiled",
+     100
+    ]
+   ],
+   "lunch": [
+    [
+     "Rice, cooked",
+     150
+    ],
+    [
+     "Beans sabzi",
+     120
+    ],
+    [
+     "Curd",
+     100
+    ]
+   ],
+   "dinner": [
+    [
+     "Grilled paneer",
+     150
+    ],
+    [
+     "Sauteed mixed vegetables",
+     200
+    ]
+   ]
+  },
+  {
+   "day": 6,
+   "date": "2026-01-10",
+   "breakfast": [
+    [
+     "Poha",
+     150
+    ],
+    [
+     "Egg whites, boiled",
+     100
+    ]
+   ],
+   "lunch": [
+    [
+     "Rice, cooked",
+     150
+    ],
+    [
+     "Beans sabzi",
+     120
+    ],
+    [
+     "Curd",
+     100
+    ]
+   ],
+   "dinner": [
+    [
+     "Grilled paneer",
+     150
+    ],
+    [
+     "Sauteed mixed vegetables",
+     200
+    ]
+   ]
+  },
+  {
+   "day": 7,
+   "date": "2026-01-11",
+   "breakfast": [
+    [
+     "Poha",
+     150
+    ],
+    [
+     "Egg whites, boiled",
+     100
+    ]
+   ],
+   "lunch": [
+    [
+     "Rice, cooked",
+     150
+    ],
+    [
+     "Beans sabzi",
+     120
+    ],
+    [
+     "Curd",
+     100
+    ]
+   ],
+   "dinner": [
+    [
+     "Grilled paneer",
+     150
+    ],
+    [
+     "Sauteed mixed vegetables",
+     200
+    ]
+   ]
+  },
+  {
+   "day": 8,
+   "date": "2026-01-12",
+   "breakfast": [
+    [
+     "Poha",
+     150
+    ],
+    [
+     "Egg whites, boiled",
+     100
+    ]
+   ],
+   "lunch": [
+    [
+     "Rice, cooked",
+     150
+    ],
+    [
+     "Beans sabzi",
+     120
+    ],
+    [
+     "Curd",
+     100
+    ]
+   ],
+   "dinner": [
+    [
+     "Grilled paneer",
+     150
+    ],
+    [
+     "Sauteed mixed vegetables",
+     200
+    ]
+   ]
+  },
+  {
+   "day": 9,
+   "date": "2026-01-13",
+   "breakfast": [
+    [
+     "Poha",
+     150
+    ],
+    [
+     "Egg whites, boiled",
+     100
+    ]
+   ],
+   "lunch": [
+    [
+     "Rice, cooked",
+     150
+    ],
+    [
+     "Beans sabzi",
+     120
+    ],
+    [
+     "Curd",
+     100
+    ]
+   ],
+   "dinner": [
+    [
+     "Grilled paneer",
+     150
+    ],
+    [
+     "Sauteed mixed vegetables",
+     200
+    ]
+   ]
+  },
+  {
+   "day": 10,
+   "date": "2026-01-14",
+   "breakfast": [
+    [
+     "Poha",
+     150
+    ],
+    [
+     "Egg whites, boiled",
+     100
+    ]
+   ],
+   "lunch": [
+    [
+     "Rice, cooked",
+     150
+    ],
+    [
+     "Beans sabzi",
+     120
+    ],
+    [
+     "Curd",
+     100
+    ]
+   ],
+   "dinner": [
+    [
+     "Grilled paneer",
+     150
+    ],
+    [
+     "Sauteed mixed vegetables",
+     200
+    ]
+   ]
+  },
+  {
+   "day": 11,
+   "date": "2026-01-15",
+   "breakfast": [
+    [
+     "Poha",
+     150
+    ],
+    [
+     "Egg whites, boiled",
+     100
+    ]
+   ],
+   "lunch": [
+    [
+     "Rice, cooked",
+     150
+    ],
+    [
+     "Beans sabzi",
+     120
+    ],
+    [
+     "Curd",
+     100
+    ]
+   ],
+   "dinner": [
+    [
+     "Grilled paneer",
+     150
+    ],
+    [
+     "Sauteed mixed vegetables",
+     200
+    ]
+   ]
+  },
+  {
+   "day": 12,
+   "date": "2026-01-16",
+   "breakfast": [
+    [
+     "Poha",
+     150
+    ],
+    [
+     "Egg whites, boiled",
+     100
+    ]
+   ],
+   "lunch": [
+    [
+     "Rice, cooked",
+     150
+    ],
+    [
+     "Beans sabzi",
+     120
+    ],
+    [
+     "Curd",
+     100
+    ]
+   ],
+   "dinner": [
+    [
+     "Grilled paneer",
+     150
+    ],
+    [
+     "Sauteed mixed vegetables",
+     200
+    ]
+   ]
+  },
+  {
+   "day": 13,
+   "date": "2026-01-17",
+   "breakfast": [
+    [
+     "Poha",
+     150
+    ],
+    [
+     "Egg whites, boiled",
+     100
+    ]
+   ],
+   "lunch": [
+    [
+     "Rice, cooked",
+     150
+    ],
+    [
+     "Beans sabzi",
+     120
+    ],
+    [
+     "Curd",
+     100
+    ]
+   ],
+   "dinner": [
+    [
+     "Grilled paneer",
+     150
+    ],
+    [
+     "Sauteed mixed vegetables",
+     200
+    ]
+   ]
+  },
+  {
+   "day": 14,
+   "date": "2026-01-18",
+   "breakfast": [
+    [
+     "Poha",
+     150
+    ],
+    [
+     "Egg whites, boiled",
+     100
+    ]
+   ],
+   "lunch": [
+    [
+     "Rice, cooked",
+     150
+    ],
+    [
+     "Beans sabzi",
+     120
+    ],
+    [
+     "Curd",
+     100
+    ]
+   ],
+   "dinner": [
+    [
+     "Grilled paneer",
+     150
+    ],
+    [
+     "Sauteed mixed vegetables",
+     200
+    ]
+   ]
+  }
+ ],
+ "meds": [
+  {
+   "id": "d3",
+   "name": "Vitamin D3 (sample)",
+   "dose": "1 tablet",
+   "contains": "Vitamin D3",
+   "times": [
+    "09:45"
+   ],
+   "withFood": "after breakfast",
+   "start": "2026-01-05",
+   "end": null,
+   "note": "Sample entry for the demo.",
+   "about": "A sample supplement entry shown in the Meds tab."
+  },
+  {
+   "id": "omega",
+   "name": "Omega-3 (sample)",
+   "dose": "1 capsule",
+   "contains": "Fish oil",
+   "times": [
+    "13:30"
+   ],
+   "withFood": "with lunch",
+   "start": "2026-01-05",
+   "end": null,
+   "note": "Sample entry for the demo.",
+   "about": "A sample supplement entry shown in the Meds tab."
+  },
+  {
+   "id": "multi",
+   "name": "Multivitamin (sample)",
+   "dose": "1 tablet",
+   "contains": "Mixed vitamins",
+   "times": [
+    "20:00"
+   ],
+   "withFood": "before dinner",
+   "start": "2026-01-05",
+   "end": null,
+   "note": "Sample entry for the demo.",
+   "about": "A sample supplement entry shown in the Meds tab."
+  }
+ ],
+ "recipes": {
+  "Poha": {
+   "per": 150,
+   "raw": [
+    [
+     "Thick poha",
+     50,
+     "g"
+    ],
+    [
+     "Onion",
+     40,
+     "g"
+    ]
+   ]
+  },
+  "Egg whites, boiled": {
+   "per": 100,
+   "raw": [
+    [
+     "Egg white",
+     100,
+     "g"
+    ]
+   ]
+  }
+ },
+ "prepTimes": {
+  "morning": "07:40",
+  "evening": "19:30",
+  "soak": "21:00",
+  "drain": "07:35"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "note": "Invented sample options.",
+ "recipes": [
+  {
+   "id": "own-egg-1",
+   "name": "Egg white scramble with spinach",
+   "group": "egg",
+   "method": "1. Soften the spinach in a splash of water.\n2. Add the whites and scramble until set.",
+   "items": [
+    {
+     "name": "egg white",
+     "grams": 132
+    },
+    {
+     "name": "spinach",
+     "grams": 25
+    },
+    {
+     "name": "pepper",
+     "grams": 1,
+     "extra": true
+    }
+   ]
+  }
+ ]
+}

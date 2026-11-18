@@ -1,0 +1,173 @@
+{
+ "note": "Invented sample recipes for the demo. Grams are one serving.",
+ "recipes": [
+  {
+   "id": "roast-veg",
+   "name": "Roasted vegetables",
+   "kind": "veg",
+   "page": 1,
+   "cardKcal": 110,
+   "method": "1. Heat the oven to 200 C.\n2. Toss the vegetables with oil, salt and pepper.\n3. Roast for 25 minutes.",
+   "items": [
+    {
+     "name": "broccoli",
+     "grams": 120
+    },
+    {
+     "name": "carrot",
+     "grams": 60
+    },
+    {
+     "name": "olive oil",
+     "grams": 5
+    }
+   ]
+  },
+  {
+   "id": "spinach-saute",
+   "name": "Garlic spinach",
+   "kind": "veg",
+   "page": 1,
+   "cardKcal": 80,
+   "method": "1. Warm the oil.\n2. Add garlic, then the spinach.\n3. Cook for 2 minutes and season.",
+   "items": [
+    {
+     "name": "spinach",
+     "grams": 150
+    },
+    {
+     "name": "garlic",
+     "grams": 3
+    },
+    {
+     "name": "olive oil",
+     "grams": 4
+    }
+   ]
+  },
+  {
+   "id": "bean-sabzi",
+   "name": "Green bean sabzi",
+   "kind": "veg",
+   "page": 1,
+   "cardKcal": 120,
+   "method": "1. Soften the onion in oil.\n2. Add the beans and spices.\n3. Cover and cook until tender.",
+   "items": [
+    {
+     "name": "french beans",
+     "grams": 130
+    },
+    {
+     "name": "onion",
+     "grams": 40
+    },
+    {
+     "name": "ghee",
+     "grams": 5
+    },
+    {
+     "name": "garam masala",
+     "grams": 1
+    }
+   ]
+  },
+  {
+   "id": "cucumber-salad",
+   "name": "Cucumber and mint salad",
+   "kind": "salad",
+   "page": 1,
+   "cardKcal": 35,
+   "method": "1. Slice the cucumber.\n2. Mix with mint, lemon and salt.",
+   "items": [
+    {
+     "name": "cucumber",
+     "grams": 150
+    },
+    {
+     "name": "mint",
+     "grams": 2
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5
+    }
+   ]
+  },
+  {
+   "id": "mint-dip",
+   "name": "Mint chutney",
+   "kind": "dip",
+   "page": 1,
+   "cardKcal": 15,
+   "method": "1. Blend mint, coriander and lemon with a little water.",
+   "items": [
+    {
+     "name": "mint",
+     "grams": 20
+    },
+    {
+     "name": "coriander leaves",
+     "grams": 15
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5
+    }
+   ]
+  },
+  {
+   "id": "tomato-soup",
+   "name": "Tomato soup",
+   "kind": "soup",
+   "page": 1,
+   "cardKcal": 60,
+   "method": "1. Simmer tomatoes with garlic.\n2. Blend and season.",
+   "items": [
+    {
+     "name": "tomato",
+     "grams": 200
+    },
+    {
+     "name": "garlic",
+     "grams": 3
+    },
+    {
+     "name": "pepper",
+     "grams": 1
+    }
+   ]
+  }
+ ],
+ "shakes": [
+  {
+   "id": "berry-shake",
+   "name": "Plain protein shake",
+   "kind": "shake",
+   "page": 1,
+   "cardKcal": 120,
+   "method": "1. Blend the whey with cold water.",
+   "items": [
+    {
+     "name": "whey isolate",
+     "grams": 30
+    }
+   ]
+  }
+ ],
+ "drinks": [
+  {
+   "id": "herbal-drink",
+   "name": "Ginger tea",
+   "kind": "drink",
+   "page": 1,
+   "cardKcal": 5,
+   "method": "1. Boil sliced ginger in water for 5 minutes and strain.",
+   "items": [
+    {
+     "name": "ginger",
+     "grams": 3
+    }
+   ]
+  }
+ ]
+}

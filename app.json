@@ -1,0 +1,88 @@
+{
+  "expo": {
+    "name": "Healthy Me",
+    "slug": "healthy-me",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "cleanplate",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "com.example.healthyme",
+      "supportsTablet": false,
+      "appleTeamId": "YOURTEAMID",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "entitlements": {
+        "com.apple.developer.usernotifications.time-sensitive": true,
+        "com.apple.security.application-groups": [
+          "group.com.example.healthyme"
+        ]
+      },
+      "icon": "./assets/images/app-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-notifications",
+        {
+          "enableBackgroundRemoteNotifications": false
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "enableSceneSupport": true
+          }
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0B0B0C"
+        }
+      ],
+      "expo-font",
+      "@react-native-community/datetimepicker",
+      [
+        "@kingstinct/react-native-healthkit",
+        {
+          "NSHealthShareUsageDescription": "Healthy Me shows your sleep, heart, steps and weight next to your meals and medicines.",
+          "NSHealthUpdateUsageDescription": "Healthy Me saves the water and morning weight you log here to Apple Health."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Healthy Me reads a photo you choose: a plate, a food label or a medicine label.",
+          "cameraPermission": "Healthy Me takes a photo of a plate, a food label or a medicine label, to log a meal, check a food or add a supplement."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Healthy Me uses the camera to read a food barcode or take a photo of a plate, label or medicine.",
+          "recordAudioAndroid": false
+        }
+      ],
+      "expo-secure-store",
+      "@bacons/apple-targets",
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Healthy Me uses the microphone so you can say what you ate.",
+          "speechRecognitionPermission": "Healthy Me turns what you say into text to find the food."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": false
+    },
+    "backgroundColor": "#0B0B0C",
+    "icon": "./assets/images/app-icon.png"
+  }
+}

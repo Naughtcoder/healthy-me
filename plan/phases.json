@@ -1,0 +1,47 @@
+{
+ "source": "Invented sample phases for the demo.",
+ "phases": [
+  {
+   "id": "CE",
+   "name": "Starter phase",
+   "days": 14,
+   "kcal": null,
+   "carbMeals": 2,
+   "brings": [],
+   "about": "Whole foods, no packaged food, eat within 12 hours, no carbs after 6 pm."
+  },
+  {
+   "id": "V1",
+   "name": "Low-calorie phase",
+   "days": 14,
+   "kcal": 850,
+   "carbMeals": 0,
+   "brings": [],
+   "about": "About 850 kcal a day of vegetables and protein."
+  },
+  {
+   "id": "V2",
+   "name": "Add dairy",
+   "days": null,
+   "kcal": null,
+   "carbMeals": 2,
+   "brings": [
+    "Milk and dairy"
+   ],
+   "about": "Dairy comes back."
+  },
+  {
+   "id": "V3",
+   "name": "Nuts and seeds",
+   "days": null,
+   "kcal": null,
+   "carbMeals": 2,
+   "brings": [
+    "Nuts",
+    "Seeds"
+   ],
+   "about": "Nuts and seeds come back, one a day."
+  }
+ ],
+ "note": "Sample phases only."
+}
